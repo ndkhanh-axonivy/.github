@@ -43,7 +43,7 @@ autolabeler:
       - '/(feature)\/.+/'
 replacers:
   - search: '/MARP-(\d+)/g'
-    replace: 'https://1ivy.atlassian.net/browse/MARP-$1'
+    replace: '[MARP-$1](https://1ivy.atlassian.net/browse/MARP-$1)'
 template: |
   ## Changes
 
